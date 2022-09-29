@@ -1,0 +1,80 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 70%;
+  min-height: 50vh;
+  height: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+li a {
+  border-radius: 7px;
+  padding: 0.1rem 1rem;
+  cursor: pointer;
+  background-color: aliceblue;
+  margin: 0 2px;
+}
+li.previous a,
+li.next a,
+li.break a {
+  border-color: transparent;
+}
+li.active a {
+  background-color: #0366d6;
+  border-color: transparent;
+  color: white;
+  min-width: 32px;
+}
+li.disabled a {
+  color: grey;
+}
+li.disable,
+li.disabled a {
+  cursor: default;
+}
+
+.selected a {
+  color: white;
+  background-color: red;
+}
+.options {
+  display: flex;
+  width: 70%;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.selectButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+
+.selectButton > label {
+  width: 100%;
+}
+
+
+
+button:hover {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px 0 #bdbdbd;
+}

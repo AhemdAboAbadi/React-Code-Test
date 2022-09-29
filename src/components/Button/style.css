@@ -1,0 +1,18 @@
+.button-search-bar {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #424242;
+  background-color: "#F2F2F2";
+
+  outline: none;
+  cursor: pointer;
+}
+.button-search-bar:hover {
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px 0 #bdbdbd;
+}
